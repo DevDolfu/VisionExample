@@ -13,6 +13,7 @@
 		28D4D24422E9520B00189163 /* FaceDetectionExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D24222E9520B00189163 /* FaceDetectionExample.xcdatamodeld */; };
 		28D4D24622E9520C00189163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D4D24522E9520C00189163 /* Assets.xcassets */; };
 		28D4D24922E9520C00189163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D4D24722E9520C00189163 /* LaunchScreen.storyboard */; };
+		28D4D25122E9663300189163 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 28D4D25022E9663300189163 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		28D4D24522E9520C00189163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D4D24822E9520C00189163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28D4D24A22E9520C00189163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D4D25022E9663300189163 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				28D4D23B22E9520B00189163 /* AppDelegate.swift */,
 				28D4D23D22E9520B00189163 /* ViewController.swift */,
+				28D4D25022E9663300189163 /* SqueezeNet.mlmodel */,
 				28D4D23F22E9520B00189163 /* Main.storyboard */,
 				28D4D24522E9520C00189163 /* Assets.xcassets */,
 				28D4D24722E9520C00189163 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				28D4D24422E9520B00189163 /* FaceDetectionExample.xcdatamodeld in Sources */,
 				28D4D23E22E9520B00189163 /* ViewController.swift in Sources */,
 				28D4D23C22E9520B00189163 /* AppDelegate.swift in Sources */,
+				28D4D25122E9663300189163 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
